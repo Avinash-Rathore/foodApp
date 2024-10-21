@@ -11,7 +11,7 @@ const FoodOrderReport = () => {
     
         try {
           const response = await fetch(
-            "http://canteen.benzyinfotech.com/api/v3/customer/report",
+            "https://canteen.benzyinfotech.com/api/v3/customer/report",
             {
               method: "POST",
               headers: {
